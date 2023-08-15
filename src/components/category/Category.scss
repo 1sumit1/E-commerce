@@ -1,0 +1,34 @@
+.category {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .catitem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      .catimg {
+        height: 170px;
+        width: 170px;
+      }
+      .catname {
+        font-size: 16px;
+        font-weight: 600;
+        color: #1c1c1c;
+      }
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+  }
+}
+

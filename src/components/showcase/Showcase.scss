@@ -1,0 +1,46 @@
+.showcase {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 85%;
+    .row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 25px;
+      .item {
+        position: relative;
+        p {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          bottom: 0;
+          height: 50px;
+          width: 100%;
+          color: #fff;
+          font-size: 20px;
+          font-weight: 600;
+          font-family: "Playfair Display", serif;
+          background-image: linear-gradient(
+            to right,
+            rgba(133, 129, 129, 0),
+            rgb(26, 23, 23),
+            rgb(29, 26, 26),
+            rgba(133, 129, 129, 0)
+          );
+          opacity: 1;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .row {
+      // display: flex;
+      // flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

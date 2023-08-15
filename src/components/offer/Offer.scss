@@ -1,0 +1,96 @@
+.offer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 85%;
+    .sale {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .left {
+        background: #cccea7;
+        width: 548px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 50px 0;
+        
+        img {
+          width: 172px;
+          height: 172px;
+          margin-bottom: 30px;
+        }
+        h5 {
+          font-size: 36px;
+          font-weight: 600;
+          color: #1c1c1c;
+          margin-bottom: 30px;
+          font-family: "Playfair Display", serif;
+          
+        }
+        h1 {
+          font-size: 85px;
+          font-weight: 600;
+          color: #1c1c1c;
+          font-family: "Playfair Display", serif;
+        }
+        button {
+          all: unset;
+          border: 1px solid #fff;
+          color: #fff;
+          font-size: 16px;
+          padding: 12px 40px;
+          cursor: pointer;
+        }
+      }
+
+      .right {
+        background: #d6bebe;
+        width: 548px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 50px 0;
+        img {
+          width: 172px;
+          height: 172px;
+          margin-bottom: 30px;
+        }
+        h5 {
+          font-size: 36px;
+          font-weight: 600;
+          color: #1c1c1c;
+          margin-bottom: 30px;
+          font-family: "Playfair Display", serif;
+        }
+        h1 {
+          font-size: 85px;
+          font-weight: 600;
+          color: #1c1c1c;
+          font-family: "Playfair Display", serif;
+          
+        }
+        button {
+          all: unset;
+          border: 1px solid #fff;
+          color: #fff;
+          font-size: 16px;
+          padding: 12px 40px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .sale {
+      // display: flex;
+      // flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

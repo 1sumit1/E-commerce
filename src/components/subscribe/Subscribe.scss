@@ -1,0 +1,65 @@
+.subscribe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 85%;
+    background: #770015;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    // flex-wrap: wrap;
+    // gap: 20px;
+
+    .mask {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      right: 0;
+    }
+    h2 {
+      font-size: 36px;
+      font-weight: 600;
+      font-family: "Playfair Display", serif;
+      line-height: 47.99px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .sub {
+      position: absolute;
+      top: 200px;
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      input {
+        border: none;
+        width: 500px;
+        padding: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        background: #c45c6f;
+        color: #fff;
+        outline: none;
+        &::placeholder {
+          color: #fff;
+          opacity: 1;
+        }
+      }
+      button {
+        border: none;
+        width: 142px;
+        background: #fff;
+        color: #770015;
+        font-size: 22px;
+        font-weight: 600;
+        font-family: "Playfair Display", serif;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+  }
+}

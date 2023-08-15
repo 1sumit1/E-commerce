@@ -1,0 +1,45 @@
+.home {
+  .container {
+    .banner {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    .banimg {
+      width: 100%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    .cat {
+      margin: 50px 0;
+    }
+    .deal {
+      margin: 50px 0;
+    }
+    .trend {
+      margin: 50px 0;
+    }
+    .feshion {
+      margin: 50px 0;
+    }
+    .new {
+      margin: 50px 0;
+    }
+    .fit {
+      margin: 50px 0;
+    }
+    .subscribe {
+      margin: 50px 0;
+    }
+    .offer {
+      margin: 50px 0;
+    }
+    .showcase {
+      margin: 50px 0;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.policy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #f5f4f2;
+  position: relative;
+  opacity: 5;
+  .circle1 {
+    height: 202px;
+    width: 202px;
+    border-radius: 50%;
+    background: #770015;
+    position: absolute;
+    left: -120px;
+    top: 100px;
+    overflow: hidden;
+  }
+  .circle2 {
+    height: 202px;
+    width: 101px;
+    border-radius: 10rem  0 0 10rem;
+    background: #770015;
+    position: absolute;
+    right: 0px;
+    top: -100px;
+    overflow: hidden;
+   
+  }
+  .container {
+    width: 80%;
+    .items {
+      display: flex;
+      justify-content: space-between;
+      height: 212px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      img {
+        height: 60px;
+        width: 60px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}

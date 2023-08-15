@@ -1,0 +1,68 @@
+.trending {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 85%;
+    .items {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .title {
+      font-size: 32px;
+      font-weight: 700;
+      color: #1c1c1c;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      font-family: "Playfair Display", serif;
+    }
+    .card-item {
+      display: flex;
+    }
+    h1::before {
+      content: "";
+      display: block;
+      width: 36%;
+      height: 1px;
+      background: #ffc7d1;
+      left: 0;
+      top: 50%;
+      position: absolute;
+    }
+    h1::after {
+      content: "";
+      display: block;
+      width: 36%;
+      height: 1px;
+      background: #ffc7d1;
+      right: 0;
+      top: 50%;
+      position: absolute;
+    }
+    .btn {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      .vbtn {
+        font-size: 12px;
+        font-weight: 400;
+        background: #770015;
+        color: #fff;
+        // padding: 18px 50px;
+        height: 48px;
+        width: 170px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media screen and (max-width: 580px) {
+  .items {
+    display: flex;
+    justify-content: center;
+  }
+}
