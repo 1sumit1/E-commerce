@@ -17,7 +17,7 @@ const Card = ({ item }) => {
         <h5 className="card-name">{item.name1}</h5>
         <div className="card-price">
           <p className="card-text">{item.price}</p>
-          <p className="card-text1">{item.oldPrice}</p>
+          <del className="card-text1">{item.oldPrice}</del>
         </div>
         <div className="size">
           <div className="s">S</div>
